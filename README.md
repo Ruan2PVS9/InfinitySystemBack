@@ -1,5 +1,4 @@
-<<<<<<< HEAD # InfinitySystemBack
-=======
+# <<<<<<< HEAD # InfinitySystemBack
 
 # Adonis API application
 
@@ -18,3 +17,4 @@ adonis serve --dev
 ```
 
 > > > > > > > origin/main
+> > > > > > > testeee
