@@ -1,13 +1,20 @@
-<<<<<<< HEAD  # InfinitySystemBack
-  =======  
-  # Adonis API application  
-  `npm install.`  
-  ### Migrations  
+<<<<<<< HEAD # InfinitySystemBack
+=======
+
+# Adonis API application
+
+`npm install`
+
+### Migrations
+
 ```js
- adonis migration:run 
- ```
-  ### Server  
-```bash 
-adonis serve --dev 
+ adonis migration:run
 ```
-  > > > > > > > origin/main
+
+### Server
+
+```bash
+adonis serve --dev
+```
+
+> > > > > > > origin/main
