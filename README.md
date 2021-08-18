@@ -17,4 +17,3 @@ adonis serve --dev
 ```
 
 > > > > > > > origin/main
-> > > > > > > testeee
