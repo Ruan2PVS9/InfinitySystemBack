@@ -1,6 +1,6 @@
-# <<<<<<< HEAD # InfinitySystemBack
+#InfinitySystemBack
 
-# Adonis API application
+## Adonis API application
 
 `npm install`
 
@@ -15,5 +15,3 @@
 ```bash
 adonis serve --dev
 ```
-
-> > > > > > > origin/main
