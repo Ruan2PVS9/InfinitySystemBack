@@ -17,5 +17,8 @@
 const Route = use('Route')
 
 Route.get('/', () => {
-  return { greeting: 'Hello world in JSON' }
+  return { greeting: 'Hello world! Welcome to an Infinity System' }
 })
+Route.post('/register', 'AppController.register');
+Route.post('/authenticate', 'AppController.authenticate');
+Route.resource('/users', 'UserController').middleware(['auth']);
