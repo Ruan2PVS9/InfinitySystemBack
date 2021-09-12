@@ -7,7 +7,7 @@ class PaymentSchema extends Schema {
   up () {
     this.create('payments', (table) => {
       table.increments('id').primary()
-      table.string('description',156).notNullable().unique()
+      table.string('description',255).notNullable().unique()
       table.timestamps()
     })
   }

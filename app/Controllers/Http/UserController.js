@@ -5,9 +5,18 @@ const User = use("App/Models/User")
 class UserController {
 
   async show({request,auth,response,params}){
-    const user = await User.findOrFail(params.id);
+    // const user = await User.findOrFail(params.id);
 
-    return user
+    // return user
+
+    try {
+      const user = await User.find(params.id);
+      if(user){
+        return user
+      }
+    } catch (error) {
+        console.log(error)
+    }
   }
   async update({request, auth, params}){
     const user = await User.findOrFail(params.id);

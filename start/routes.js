@@ -1,5 +1,8 @@
 'use strict'
 
+const PaymantController = require('../app/Controllers/Http/PaymentController');
+const Paymant = require('../app/Models/Payment');
+
 /*
 |--------------------------------------------------------------------------
 | Routes
@@ -22,3 +25,8 @@ Route.get('/', () => {
 Route.post('/register', 'AppController.register');
 Route.post('/authenticate', 'AppController.authenticate');
 Route.resource('/users', 'UserController').middleware(['auth']);
+
+Route.resource('/payments', 'PaymentController').middleware(['auth']);
+Route.resource('/status', 'StatusController').middleware(['auth']);
+Route.resource('/promotions', 'PromotionController').middleware(['auth']);
+
